@@ -8,7 +8,7 @@ const Navbar = () => {
         <div class="flex items-center"><a href="/" class="flex items-center">
      
         </a><span class="self-center text-2xl font-semibold whitespace-nowrap text-[#B22222]
-                dark:text-white hidden sm:inline-block">Shri Vinayaga Hr. Sec. School</span>
+                dark:text-white hidden sm:inline-block">AI Support</span>
                       <span class="self-center text-xl font-semibold whitespace-nowrap text-[#B22222]
                            dark:text-white sm:hidden">SVHSS</span>
                            </div>
@@ -20,19 +20,20 @@ const Navbar = () => {
                                            x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6">
                                                   </line><line x1="4" x2="20" y1="18" y2="18"></line>
                                                      </svg></button><ul class="hidden md:flex space-x-8 font-medium">
-                                                         <li><a class="text-[#3E2723] cursor-pointer hover:text-[#B22222]
+                                                         <li>
+                                                  <a class="text-[#3E2723] cursor-pointer hover:text-[#B22222]
                                                           dark:text-white dark:hover:text-[#F9BF3B] transition-all
-                                                           text-[#E25822] font-bold">Home</a>
+                                                           text-[#E25822] font-bold">Jobs </a>
                                                            </li><li>
                                                             
           <a class="text-[#3E2723] cursor-pointer hover:text-[#B22222] dark:text-white 
-          dark:hover:text-[#F9BF3B] transition-all">About</a></li><li>
+          dark:hover:text-[#F9BF3B] transition-all">My Jobs</a></li><li>
             <a class="text-[#3E2723] cursor-pointer hover:text-[#B22222] dark:text-white
-             dark:hover:text-[#F9BF3B] transition-all">Achievements</a></li><li>
+             dark:hover:text-[#F9BF3B] transition-all">My bid</a></li><li>
               <a class="text-[#3E2723] cursor-pointer hover:text-[#B22222] dark:text-white
-               dark:hover:text-[#F9BF3B] transition-all">Gallery</a></li><li>
+               dark:hover:text-[#F9BF3B] transition-all">Jobs view</a></li><li>
             <a class="text-[#3E2723] cursor-pointer hover:text-[#B22222] dark:text-whit
-             dark:hover:text-[#F9BF3B] transition-all">Activity</a></li><li>
+             dark:hover:text-[#F9BF3B] transition-all">Login</a></li><li>
             <a class="text-[#3E2723] cursor-pointer hover:text-[#B22222] dark:text-white 
              dark:hover:text-[#F9BF3B] transition-all">Contact</a></li></ul></div>
 
@@ -44,15 +45,8 @@ const Navbar = () => {
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                          viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                           stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-x w-6 h-6 text-white">
-                            <path d="M18 6 6 18"></path><path d="m6 6 12 12"></path></svg></button></div>
-                            
-                  <ul class="flex flex-col p-4 space-y-4"><li><a class="block py-2 px-4 text-white cursor-pointer *
-                        hover:bg-[#B22222] transition-all active">Home</a></li><li>
-                  <a class="block py-2 px-4 text-white cursor-pointer hover:bg-[#B22222] transition-all">About</a></li><li>
-                <a class="block py-2 px-4 text-white cursor-pointer hover:bg-[#B22222] transition-all">Achievements</a></li><li>
-                <a class="block py-2 px-4 text-white cursor-pointer hover:bg-[#B22222] transition-all">Gallery</a></li><li>
-                <a class="block py-2 px-4 text-white cursor-pointer hover:bg-[#B22222] transition-all">Activity</a></li><li>
-              <a class="block py-2 px-4 text-white cursor-pointer hover:bg-[#B22222] transition-all">Contact</a></li></ul></div>
+                            <path d="M18 6 6 18"></path><path d="m6 6 12 12"></path></svg></button></div>           
+              </div>
               </nav>
     
    
