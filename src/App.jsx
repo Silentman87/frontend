@@ -1,7 +1,8 @@
 import React from 'react';
-import Navbar  from './component/Navbar';
+import Navbar  from './component/Header';
 import './App.css'
-import {BrowserRouter as Router,Routes ,Route} from 'react-router-dom';
+import {BrowserRouter as Router,Routes ,Route, Outlet} from 'react-router-dom';
+import Footer from './component/Footer';
 
 
 
@@ -10,15 +11,11 @@ function App() {
 
   return (
        
-       <Router>
-         <Routes>
-
-          <Route path='/' element={<Navbar />} />
- 
-       </Routes>
-       
-       
-       </Router>
+       <>
+        <Navbar/>
+        <Outlet/>
+        <Footer/>
+       </>
         
   )
 }
