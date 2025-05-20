@@ -6,7 +6,7 @@ const FreeLancerRoutes = () => {
   const { isAuthenticated, user } = useAuth();
   const isFreelancer = isAuthenticated && user?.role === 'freelancer';
 
-  return isFreelancer ? <Outlet /> : <Navigate to="/home" />;
+  return isFreelancer ? <Outlet /> : <Navigate to="/login" />;
 };
 
 export default FreeLancerRoutes;
